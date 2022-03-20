@@ -11,16 +11,22 @@ option to add line numbers to all lines `-n`<br>
 
 ## 😚Commands:
 
-<br>1. `node wcat.js filepath` => displays content of the file in the terminal ✅
-<br>2. `node wcat.js filepath1 filepath2 filepath3...` => displays content of all files in the terminal in (contactinated form) in the given order. ✅
-<br>3. `node wcat.js -s filepath` => convert big line breaks into a singular line break
-<br>4. `node wcat.js -n filepath` => give numbering to all the lines
-<br>5. `node wcat -b filepath` => give numbering to non-empty lines<br>
-<br>We can mix and match the options.
+1. `node wcat.js filepath` => displays content of the file in the terminal ✅<br>
+2. `node wcat.js filepath1 filepath2 filepath3...` => displays content of all files in the terminal in (contactinated form) in the given order. ✅<br>
+3. `node wcat.js -s filepath` => convert big line breaks into a singular line break.✅<br>
+4. `node wcat.js -n filepath` => give numbering to all the lines.✅<br>
+5. `node wcat -b filepath` => give numbering to non-empty lines.✅<br>
+   We can mix and match the options.
 
 ## 😬Edge cases:
 
 <br>
-1- If file entered is not found then it gives file does not exist error. ✅ <br>
-2- `-n` and `-b` are 2 options which are mutually exclusive so if user types both of them together only the first enter option should work.<br>
-3- `-s` and any or both `-n` and `-b` present then `-s` will be executed first and then `-n` and `-b` according second rule
+1. If file entered is not found then it gives file does not exist error. ✅ <br>
+2. `-n` and `-b` are 2 options which are mutually exclusive so if user types both of them together only the first enter option should work.✅<br>
+3. `-s` and any or both `-n` and `-b` present then `-s` will be executed first and then `-n` and `-b` according second rule.✅
+
+## Extra cases: https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
+
+1. Create a new file using `node wcat.js -c FILENAME`
+2. Display $ at the end of file
+3. Sorting contents of multiple files in a single file
