@@ -20,13 +20,13 @@ option to add line numbers to all lines `-n`<br>
 
 ## 😬Edge cases:
 
-<br>
-1. If file entered is not found then it gives file does not exist error. ✅ <br>
-2. `-n` and `-b` are 2 options which are mutually exclusive so if user types both of them together only the first enter option should work.✅<br>
+1. If file entered is not found then it gives file does not exist error. ✅ 
+2. `-n` and `-b` are 2 options which are mutually exclusive so if user types both of them together only the first enter option should work.✅
 3. `-s` and any or both `-n` and `-b` present then `-s` will be executed first and then `-n` and `-b` according second rule.✅
 
-## Extra cases: https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
+## Extra cases: 
 
+Link:https://www.tecmint.com/13-basic-cat-command-examples-in-linux/<br>
 1. Create a new file using `node wcat.js -c FILENAME`
 2. Display $ at the end of file
 3. Sorting contents of multiple files in a single file
