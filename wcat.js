@@ -25,7 +25,7 @@ for (let i = 0; i < filesArr.length; i++) {
 
     if (!doesExist) {
         console.log("One or File(s) Doesnt exist");
-        break;
+        process.exit();
     }
 }
 
