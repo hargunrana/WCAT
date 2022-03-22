@@ -61,8 +61,8 @@ if (isSPresent) {
             tempArr.push(contentArr[i]);
         }
     }
+    contentArr = tempArr;
 }
-contentArr = tempArr;
 
 let isNPresent = optionsArr.includes("-n");
 let isBPresent = optionsArr.includes("-b");
